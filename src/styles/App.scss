@@ -1,0 +1,116 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  font-size: 62.5%;
+}
+
+.page{
+  background-color: black;
+  height:100%;
+  padding-bottom: 30px;
+}
+.logo{
+  width:22rem;
+}
+.header{
+  text-align: center;
+  height:200px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+}
+.box{
+  height:18rem;
+}
+.list{
+  list-style: none;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap:30px;
+  padding:0px;
+  color:white;
+}
+.images{
+  width:12rem;
+}
+.names{
+  
+  color: white;
+  width:120px;
+  font-size: 1.5rem;
+  margin-left:5px;
+  font-weight: bolder;
+  
+}
+.links{
+  text-decoration: none;
+}
+.species{
+  color: white;
+  font-size: 1.4rem;
+  margin-left: 5px;
+  margin-top: 5px;
+  
+}
+
+.card{
+  background-color:turquoise;
+  width:120px;
+}
+.form{
+  display:flex;
+  flex-direction: column;
+  gap:10px;
+}
+.input{
+  font-size: 1.2rem;
+  width:30rem;
+  height:25px;
+  background-color: black;
+  border-color: turquoise;
+  color:white;
+}
+.screen{
+  width:100%;
+  height:100vh;
+  display:flex;
+  flex-direction: column;
+  justify-content:baseline;
+  align-items: center;
+  background-color: black;
+  
+}
+.imageBox{
+  display:flex;
+ justify-content: center;
+  align-items: center;
+  background-color: turquoise;
+  width: 500px;
+  
+}
+.imageWindow{
+width:250px;
+padding:10px;
+
+}
+.return{
+  color: antiquewhite;
+  margin-bottom: 10px;
+  font-size: 1.4rem;
+}
+
+.window{
+padding-left: 20px;
+
+}
+
+.info{
+  color :white;
+  margin-bottom: 10px;
+  font-size: 1.4rem;
+  
+}
