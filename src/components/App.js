@@ -4,7 +4,7 @@ import getData from './services/api';
 import '../styles/App.scss';
 import CharacterList from './CharacterList';
 //import CharacterItem from './CharacterItem';
-import logo from '../components/images/logo-rick&morty.png'
+import logo from '../components/images/Rick_and_Morty.png'
 import { Routes, Route, useLocation, matchPath, } from 'react-router-dom';
 import CharacterDetails from '../pages/CharacterDetails';
 
